@@ -162,7 +162,7 @@ public class Story {
     //townGate
     public void north(){
         if(player.enemyKills >= 5){
-            ui.mainTextArea.setText("you killed 5 monster!  you can walk into the town now");
+            ui.mainTextArea.setText("you killed 5 monster!  you can walk into the town and you found the debter and you took the money to your father \n\n\nEND");
 
             ui.choice1.setVisible(true);
             ui.choice2.setVisible(true);
